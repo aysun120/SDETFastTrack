@@ -75,7 +75,7 @@ public class JavaFakerPractice {
     @FindBy(id="ctl00_MainContent_fmwOrder_InsertButton")
     public WebElement process;
 
-    @FindBy(xpath="//strong[contains(.,'New order has been')]")
+    @FindBy(xpath="//strong[contains(.,'New order has bee')]")
     public WebElement message;
 
 
